@@ -7,13 +7,13 @@ const config = {
   output: {
     path: path.join(rootPath, "build"),
     filename: "[name].bundle.js",
-    sourceMapFilename: "[name].js.map",
+    sourceMapFilename: "[file].map[query]",
   },
   mode: process.env.NODE_ENV || "development",
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
   },
-  devtool: 'source-map',
+  devtool: "source-map",
   module: {
     rules: [
       {
