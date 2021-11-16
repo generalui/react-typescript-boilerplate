@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "alfnielsen.vsc-organize-imports",
+    "davidanson.vscode-markdownlint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "tyriar.sort-lines"
+  ]
+}
